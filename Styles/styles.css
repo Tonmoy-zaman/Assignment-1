@@ -136,16 +136,15 @@ didn't work */
     justify-content: center;
     align-items: center;
     text-align: left;
-    margin-top: 130px;
+    padding: 300px;
 }
 
 .positive-mindset-text {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 40px;
-    margin-left: 394px;
+    margin-left: 100px;
     padding-left: 94px;
-    padding-top: 59px;
     padding-bottom: 24px;
 }
 
@@ -158,7 +157,78 @@ didn't work */
     height: 64px;
     background: white;
     border-radius: 5px;
-    margin-left: 490px;
+    margin-left: 190px;
     margin-top: 20px;
 
+}
+
+/* footer  */
+footer {
+
+    background-color: #151414;
+    height: 577px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.footer-text {}
+
+.footer-text-title {
+    font-weight: 700;
+    font-size: 45px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.footer-text-des {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    width: 50%;
+    margin-bottom: 32px;
+
+}
+
+.logos {
+    text-align: left;
+}
+.subscribe{
+    height: 204px;
+    width: 325px;
+
+}
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    text-align: left;
+    margin-top: -40px;
+}
+
+.email-box{
+    width: 100%;
+    padding: 18px 20px;
+    margin: 31px 0;
+    font-weight: 500;
+font-size: 18px;
+    box-sizing: border-box;
+    background-color: #151414;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.btn-subscibe{
+    color: #ee4920;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    background: white;
+    border-radius: 5px;
+    margin-right: 150px;
+    margin-top: -16px;
 }
