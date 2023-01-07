@@ -23,7 +23,7 @@
 }
 
 .text-banner-title {
-    
+
     font-weight: 700;
     font-size: 65px;
     margin-bottom: 24px;
@@ -39,7 +39,7 @@
 
 .btn-color {
     color: #FFFFFF;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 20px;
     border: 0;
     padding: 18px 35px;
@@ -78,16 +78,87 @@
     margin-bottom: 24px;
 }
 
-.failures-des{
+.failures-des {
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 16px;
 }
-.failures-checkmarks li{
+
+.failures-checkmarks li {
     list-style-type: '\2713';
     /* ul li::marker {
   content: '✓';
   color: green;
 }
 didn't work */
+}
+
+/* My Plans style */
+.my-plans {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.plans-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 56px;
+}
+
+.plans-list {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 86px;
+}
+
+.plan-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+    padding-top: 20px;
+
+}
+
+.plan-des {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* positive mindset style */
+.positive-mindset {
+    background-image: url('../images/gradient2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 307px;
+}
+
+.positive-mindset-text {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 394px;
+    padding-left: 94px;
+    padding-top: 59px;
+    padding-bottom: 24px;
+}
+
+.btn-second {
+    color: #ee4920;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    background: white;
+    border-radius: 5px;
+    margin-left: 490px;
+    margin-top: 20px;
+
 }
