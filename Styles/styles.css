@@ -175,8 +175,6 @@ footer {
     
 }
 
-.footer-text {}
-
 .footer-text-title {
     font-weight: 700;
     font-size: 45px;
@@ -231,4 +229,31 @@ font-size: 18px;
     border-radius: 5px;
     margin-right: 150px;
     margin-top: -16px;
+}
+
+/* new section: achievements */
+.achievements{
+    text-align: center;
+    margin-top: 131px;
+}
+.achievements-img{
+    display: flex;
+    align-items: center ;
+    justify-content:space-evenly;
+}
+.achievements-text{ color: #151414;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 16px;
+    padding-top: 20px;
+}
+.achievements-des{
+    margin-top: 80px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.achievements-img-edit{
+    border-radius: 1000px;
+    height: 400px;
 }
