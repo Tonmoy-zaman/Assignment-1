@@ -129,14 +129,14 @@ didn't work */
 
 /* positive mindset style */
 .positive-mindset {
-    background-image: url('../images/gradient2.png');
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
     background-repeat: no-repeat;
-    background-position: center;
-    background-blend-mode: darken;
+    background-position: center, center;
+    background-blend-mode: lighten, color-dodge;
     justify-content: center;
     align-items: center;
     text-align: left;
-    margin-top: 307px;
+    margin-top: 130px;
 }
 
 .positive-mindset-text {
